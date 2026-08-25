@@ -1,8 +1,21 @@
-const  Hello = (props: {name: string, age?: number}) => {
+interface HelloProps {
+    name: string;
+    age?: number;
+}
+
+
+const  Hello = ({name, age}: HelloProps) => {
+
+    // code JS or TS
+   
+
+    
+
+
     return (
     <div>
-        <h1>{props.name}</h1>
-        <p>{props.age}</p>
+        <h1>{name}</h1>
+        <p>{age}</p>
     </div>
     )
 }
