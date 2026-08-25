@@ -1,5 +1,8 @@
+import Hello from "./Hello";
+
+
 const HomePage = () => {
-  return <div>Home Page</div>;
+  return <Hello name="John" />;
 };
 
 export default HomePage;
